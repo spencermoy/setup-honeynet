@@ -19,6 +19,8 @@ I also allowed all inbound and outbound traffic by configuring audit object acce
 To provide full permission for SQL server to registry hive, I accessed the registry editor (regedit) and added a user in security and allowed full control and read. I right-clicked Permissions, added NETWORK SERVICE, and granted full control and read access.
 ![registry-add-network-server](https://github.com/spencermoy/azure-soc-honeynet/assets/137566643/13c94fa7-3d58-4311-8b67-12d5e4322f68)<br>
 ![registry-network-server-allow](https://github.com/spencermoy/azure-soc-honeynet/assets/137566643/13e74fdf-e081-4058-9c8b-95ed868be3ef)<br>
+Here is the Microsoft documentation about "Write SQL Server Audit events to the Security log"<br>
+https://learn.microsoft.com/en-us/sql/relational-databases/security/auditing/write-sql-server-audit-events-to-the-security-log?view=sql-server-ver16
 
 
 
